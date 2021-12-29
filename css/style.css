@@ -17,7 +17,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
@@ -548,7 +547,7 @@ section {
 .services .box-container .box i {
     font-size: 4rem;
     padding-bottom: 5rem;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .services .box-container .box h3 {
@@ -558,7 +557,7 @@ section {
 }
 
 .services .box-container .box p {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     line-height: 1.8;
     color: var(--light-color);
 }
@@ -635,7 +634,6 @@ section {
     padding: .5rem 0;
     display: grid;
     place-items: center;
-    text-shadow: #79f53f, #ccc, #f5b53f;
     box-shadow: var(--box-shadow);
 }
 
