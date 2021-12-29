@@ -478,6 +478,58 @@ section {
     width: 80%;
 }
 
+.formation .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+}
+
+.formation .box-container .box {
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    z-index: 0;
+    /* overflow: hidden; */
+}
+
+.formation .box-container .box i {
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    color: #fff;
+}
+
+.formation .box-container .box h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: var(--black);
+}
+
+.formation .box-container .box p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: var(--light-color);
+}
+
+.formation .box-container .box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #79f53f;
+    z-index: -1;
+    clip-path: circle(9rem at 5% 0%);
+    transition: .3s linear;
+}
+
+
+/* fin Formation */
+
+
+/* Debut services */
+
 .services .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -523,6 +575,9 @@ section {
     clip-path: circle(9rem at 5% 0%);
     transition: .3s linear;
 }
+
+
+/* fin services */
 
 .portfolio .box-container {
     display: grid;
@@ -573,6 +628,15 @@ section {
 .portfolio .box-container .box:hover .content h3 {
     transform: translateY(0rem);
     opacity: 1;
+}
+
+.contact .box .content {
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    display: grid;
+    place-items: center;
+    text-shadow: #79f53f, #ccc, #f5b53f;
+    box-shadow: var(--box-shadow);
 }
 
 .contact form {
