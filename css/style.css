@@ -2,7 +2,7 @@
 :root {
     --green: #f5b53f;
     --black: #444;
-    --light-color: #777;
+    --light-color: rgb(87, 85, 85);
     --bg-color: #e6e6e6;
     --border: .1rem solid rgba(0, 0, 0, .2);
     --box-shadow: .4rem .4rem 1rem #ccc, -.4rem -.4rem 1rem #fff;
@@ -213,7 +213,7 @@ section {
 }
 
 .home .share a:hover {
-    /* box-shadow: var(--box-shadow-inset); */
+    box-shadow: var(--box-shadow-inset);
     color: var(--green);
 }
 
@@ -247,7 +247,7 @@ section {
 }
 
 .about .row-1 .content p {
-    color: rgb(196, 195, 195);
+    color: rgb(71, 70, 70);
     font-size: 1.7rem;
     padding: .5rem 0;
 }
