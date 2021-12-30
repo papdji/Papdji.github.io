@@ -241,12 +241,12 @@ section {
 }
 
 .about .row-1 .content h3 {
-    color: rgb(65, 65, 65);
+    color: var(--black);
     font-size: 3.5rem;
 }
 
 .about .row-1 .content p {
-    color: rgb(71, 70, 70);
+    color: var(--black);
     font-size: 1.7rem;
     padding: .5rem 0;
 }
@@ -481,6 +481,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap: 2rem;
+    height: auto;
 }
 
 .formation .box-container .box {
@@ -489,7 +490,6 @@ section {
     box-shadow: var(--box-shadow);
     position: relative;
     z-index: 0;
-    /* overflow: hidden; */
 }
 
 .formation .box-container .box i {
@@ -531,6 +531,7 @@ section {
 
 .services .box-container {
     display: grid;
+    height: min-content;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap: 2rem;
 }
