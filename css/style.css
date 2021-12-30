@@ -606,7 +606,7 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background: var(--bg-color);
+    background-color: rgba(255, 255, 255, 0.692);
     display: grid;
     place-items: center;
     transform: scale(0);
@@ -618,7 +618,7 @@ section {
 
 .portfolio .box-container .box .content h3 {
     font-size: 2.5rem;
-    color: var(--black);
+    color: rgb(48, 238, 30);
     text-transform: uppercase;
     transform: translateY(-5rem);
     opacity: 0;
@@ -634,6 +634,7 @@ section {
     font-size: 1.5rem;
     padding: .5rem 0;
     display: grid;
+    color: var(--black);
     place-items: center;
     box-shadow: var(--box-shadow);
 }
