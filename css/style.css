@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 :root {
-    --green: #f5b53f;
+    --green: #33ff05;
     --black: #444;
     --light-color: rgb(87, 85, 85);
     --bg-color: #e6e6e6;
@@ -517,7 +517,7 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #79f53f;
+    background-color: #03ff14;
     z-index: -1;
     clip-path: circle(9rem at 5% 0%);
     transition: .3s linear;
@@ -554,7 +554,7 @@ section {
 .services .box-container .box h3 {
     font-size: 2rem;
     padding-bottom: 1rem;
-    color: var(--black);
+    color: var(--green);
 }
 
 .services .box-container .box p {
@@ -570,7 +570,7 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #f5b53f;
+    background-color: #34ff02;
     z-index: -1;
     clip-path: circle(9rem at 5% 0%);
     transition: .3s linear;
